@@ -1,0 +1,43 @@
+.header {
+    height: 150px;
+    width: 100hv;
+    background-color: white;
+
+    .wrapper {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        height: 100%;
+        padding: 0 191px;
+
+        .logo {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            gap: 12px;
+    
+            .logoCircle {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 41px;
+                height: 41px;
+                border-radius: 50%;
+                background-color: #458FF6;
+    
+                .logoLetter {
+                    color: white;
+                    font-weight: 700;
+                    font-size: 26px;
+                }
+            }
+    
+            .logoTitle {
+                color: #233348;
+                font-size: 24px;
+                font-weight: 700;
+            }
+        }
+    }
+}
