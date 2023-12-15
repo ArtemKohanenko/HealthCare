@@ -1,3 +1,4 @@
+import FilledButton from '../FilledButton/FilledButton';
 import classes from './MainBlock.module.scss'
 
 
@@ -11,12 +12,9 @@ const MainBlock = () => {
                         <span className={classes.title}>Virtual healthcare for you</span>
                         <span className={classes.text}>Our service provides progressive, and affordable healthcare, accessible on mobile and online for everyone</span>
                     </div>
-                    <button className={classes.button}>
-                        Consult today
-                    </button>
+                    <FilledButton text='Consult today'/>
                 </div>
                 <img className={classes.picture} src='src/assets/main_block_picture.png'/>
-                
             </div>
         </div>
     </>

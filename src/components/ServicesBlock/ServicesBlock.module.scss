@@ -1,3 +1,5 @@
+@import 'src/styles';
+
 .container {
     display: flex;
     position: relative;
@@ -13,7 +15,7 @@
         .title {
             font-weight: 700;
             font-size: 36px;
-            color: black;
+            color: $color-text-title;
             line-height: 56px;
         }
 
@@ -21,13 +23,13 @@
             border-radius: 50%;
             width: 56px;
             height: 2px;
-            background-color: black;
+            background-color: $color-divider;
             margin-top: 26px;
             margin-bottom: 33px;
         }
 
         .text {
-            color: #7D7987;
+            color: $color-text;
             width: 952px;
             text-align: center;
             font-size: 18px;

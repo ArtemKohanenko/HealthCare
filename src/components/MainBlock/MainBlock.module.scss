@@ -1,3 +1,5 @@
+@import 'src/styles';
+
 .relativeContainer {
     position: relative;
 
@@ -34,7 +36,7 @@
                 }
     
                 .text {
-                    color: #7D7987;
+                    color: $color-text;
                     font-size: 21px;
                     line-height: 32px;
                 }
@@ -48,12 +50,12 @@
                 width: 200px;
                 height: 56px;
                 border-radius: 55px;
-                background-color: #458FF6;
+                background-color: $color-primary;
     
                 font-size: 18px;
                 font-weight: 700;
                 line-height: 60px;
-                color: white;
+                color: $color-text-light;
             }
         }
     

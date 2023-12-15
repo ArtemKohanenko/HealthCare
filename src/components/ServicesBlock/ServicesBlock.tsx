@@ -1,6 +1,6 @@
 import ServiceCard from '../ServiceCard/ServiceCard';
 import ServiceCardsGrid from '../ServiceCardsGrid/ServiceCardsGrid';
-import TransparentButton from '../TransparentButton/TransparentButton';
+import BlankButton from '../BlankButton/BlankButton';
 import classes from './ServicesBlock.module.scss'
 
 
@@ -25,7 +25,7 @@ const ServicesBlock = () => {
                 <ServiceCardsGrid/>
             </div>
             <div className={classes.buttonContainer}>
-                <TransparentButton text='Learn more'/>
+                <BlankButton text='Learn more'/>
             </div>
             
         </div>

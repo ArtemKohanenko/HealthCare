@@ -1,7 +1,9 @@
+@import 'src/styles';
+
 .header {
     height: 150px;
     width: 100hv;
-    background-color: white;
+    background-color: $color-background;
 
     .wrapper {
         display: flex;
@@ -24,17 +26,17 @@
                 width: 41px;
                 height: 41px;
                 border-radius: 50%;
-                background-color: #458FF6;
+                background-color: $color-logo-bg;
     
                 .logoLetter {
-                    color: white;
+                    color: $color-logo-letter;
                     font-weight: 700;
                     font-size: 26px;
                 }
             }
     
             .logoTitle {
-                color: #233348;
+                color: $color-logo-title;
                 font-size: 24px;
                 font-weight: 700;
             }
