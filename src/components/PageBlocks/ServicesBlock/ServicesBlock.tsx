@@ -1,8 +1,8 @@
-import ServiceCard from '../ServiceCard/ServiceCard';
-import ServiceCardsGrid from '../ServiceCardsGrid/ServiceCardsGrid';
-import BlankButton from '../BlankButton/BlankButton';
+import ServiceCard from '../../ServiceCard/ServiceCard';
+import ServiceCardsGrid from '../../ServiceCardsGrid/ServiceCardsGrid';
+import BlankButton from '../../BlankButton/BlankButton';
 import classes from './ServicesBlock.module.scss'
-import Divider from '../Divider/Divider';
+import Divider from '../../Divider/Divider';
 
 
 const ServicesBlock = () => {

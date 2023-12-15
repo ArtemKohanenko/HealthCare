@@ -1,4 +1,4 @@
-import FilledButton from '../FilledButton/FilledButton';
+import FilledButton from '../../FilledButton/FilledButton';
 import classes from './MainBlock.module.scss'
 
 
