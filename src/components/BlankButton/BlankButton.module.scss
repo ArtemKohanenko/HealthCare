@@ -7,11 +7,25 @@
     width: 200px;
     height: 56px;
     background-color: $color-button-blank-bg;
-    color: $color-primary;
     border: solid 2px  $color-primary;
     border-radius: 55px;
 
-    font-size: 18px;
-    font-weight: 700;
-    line-height: 60px;
+    .container {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 15px;
+
+        .text {
+            font-size: 18px;
+            font-weight: 700;
+            line-height: 60px;
+            color: $color-primary;
+        }
+
+        .icon {
+            height: 15px;
+            width: auto;
+        }
+    }
 }
