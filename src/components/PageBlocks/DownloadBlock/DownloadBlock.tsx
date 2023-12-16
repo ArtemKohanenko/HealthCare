@@ -8,7 +8,7 @@ const DownloadBlock = () => {
         <div className={classes.container}>
             <div className={classes.info}>
                 <div className={classes.textBlock}>
-                    <span className={classes.title}>Download our mobile apps</span>
+                    <h1 className={classes.title}>Download our mobile apps</h1>
                     <Divider/>
                     <span className={classes.text}>Our dedicated patient engagement app and web portal allow you to access information instantaneously (no tedeous form, long calls, or administrative hassle) and securely</span>
                 </div>

@@ -14,7 +14,7 @@ const ArticlesBlock = () => {
 
     return <>
         <div className={classes.blockContainer}>
-            <span className={classes.title}>Check out our latest article</span>
+            <h1 className={classes.title}>Check out our latest article</h1>
             <div className={classes.dividerContainer}>
                 <Divider/>
             </div>

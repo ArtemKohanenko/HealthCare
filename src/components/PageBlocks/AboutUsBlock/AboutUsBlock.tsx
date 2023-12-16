@@ -11,7 +11,7 @@ const AboutUsBlock = () => {
                 <img className={classes.picture} src='src/assets/aboutUs_block_picture.png'/>
                 <div className={classes.info}>
                     <div className={classes.textBlock}>
-                        <span className={classes.title}>Leading healthcare providers</span>
+                        <h1 className={classes.title}>Leading healthcare providers</h1>
                         <Divider/>
                         <span className={classes.text}>We provides progressive, and affordable healthcare, accessible on mobile and online for everyone. To us, it’s not just work. We take pride in the solutions we deliver</span>
                     </div>

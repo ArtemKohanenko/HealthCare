@@ -9,7 +9,7 @@ const MainBlock = () => {
             <div className={classes.container}>
                 <div className={classes.info}>
                     <div className={classes.textBlock}>
-                        <span className={classes.title}>Virtual healthcare for you</span>
+                        <h1 className={classes.title}>Virtual healthcare for you</h1>
                         <span className={classes.text}>Our service provides progressive, and affordable healthcare, accessible on mobile and online for everyone</span>
                     </div>
                     <FilledButton text='Consult today'/>

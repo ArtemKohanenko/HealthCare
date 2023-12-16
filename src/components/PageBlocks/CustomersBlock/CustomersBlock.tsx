@@ -6,7 +6,7 @@ const CustomersBlock = () => {
     return <>
         <div className={classes.customerContainer}>
             <div className={classes.customerWrapper}>
-                <span className={classes.title}>What our customer are saying</span>
+                <h1 className={classes.title}>What our customer are saying</h1>
                 <div className={classes.dividerContainer}>
                     <Divider isLight/>
                 </div>
