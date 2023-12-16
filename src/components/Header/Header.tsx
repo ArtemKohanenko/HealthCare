@@ -5,7 +5,7 @@ import NavBar from '../NavBar/NavBar';
 
 const Header = () => {
     return <>
-        <div className={classes.header}>
+        <header className={classes.header}>
             <div className={classes.wrapper}>
                 <div className={classes.logo}>
                     <div className={classes.logoCircle}>
@@ -15,7 +15,7 @@ const Header = () => {
                 </div>
                 <NavBar/>
             </div>  
-        </div>
+        </header>
     </>
 }
 
