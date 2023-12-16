@@ -9,23 +9,25 @@ import ArticlesBlock from "../PageBlocks/ArticlesBlock/ArticlesBlock";
 
 const Body = () => {
     return <>
-        <MainBlock/>
-        <div className={classes.block2}>
-            <ServicesBlock/>
-        </div>
-        <div className={classes.block3}>
-            <AboutUsBlock/>
-        </div>
-        <div className={classes.block4}>
-            <DownloadBlock/>
-        </div>
-        <div className={classes.block5}>
-            <CustomersBlock/>
-        </div>
-        <div className={classes.block6}>
-            <ArticlesBlock/>
-            <img src='src/assets/points_background.svg' className={classes.points_bg}></img>
-        </div>
+        <main>
+            <MainBlock/>
+            <div className={classes.block2}>
+                <ServicesBlock/>
+            </div>
+            <div className={classes.block3}>
+                <AboutUsBlock/>
+            </div>
+            <div className={classes.block4}>
+                <DownloadBlock/>
+            </div>
+            <div className={classes.block5}>
+                <CustomersBlock/>
+            </div>
+            <div className={classes.block6}>
+                <ArticlesBlock/>
+                <img src='src/assets/points_background.svg' className={classes.points_bg}></img>
+            </div>
+        </main>
     </>
 }
 

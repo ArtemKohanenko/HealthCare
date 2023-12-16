@@ -2,7 +2,7 @@ import classes from './Footer.module.scss'
 
 const Footer = () => {
     return <>
-        <div className={classes.footerContainer}>
+        <footer className={classes.footerContainer}>
             <div className={classes.info}>
                 <div className={classes.companyInfo}>
                     <div className={classes.logo}>
@@ -37,7 +37,7 @@ const Footer = () => {
                 <span className={classes.link}>How it works</span>
             </div>
             <img className={classes.pointsBg} src='src/assets/points_background2.svg'></img>
-        </div>
+        </footer>
     </>
 }
 
