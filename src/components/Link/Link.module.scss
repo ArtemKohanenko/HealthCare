@@ -1,0 +1,30 @@
+@import 'src/styles';
+
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: $color-button-blank-bg;
+    border: none;
+    padding: 0px;
+    margin: 0px;
+
+    .container {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 15px;
+
+        .text {
+            font-size: 17px;
+            font-weight: 600;
+            line-height: 28px;
+            color: $color-primary;
+        }
+
+        .icon {
+            height: 15px;
+            width: auto;
+        }
+    }
+}

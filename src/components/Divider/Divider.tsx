@@ -1,10 +1,14 @@
 import classes from './Divider.module.scss'
 
 
-const Divider = () => {
+interface Props {
+    isLight?: boolean
+}
+    
+const Divider = ({isLight = false}: Props) => {
 
     return <>
-        <div className={classes.divider}></div>
+        <div className={`${classes.divider} ${isLight ? classes.light : classes.dark}`}></div>
     </>
 }
 

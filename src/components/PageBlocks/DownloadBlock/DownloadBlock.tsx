@@ -12,7 +12,7 @@ const DownloadBlock = () => {
                     <Divider/>
                     <span className={classes.text}>Our dedicated patient engagement app and web portal allow you to access information instantaneously (no tedeous form, long calls, or administrative hassle) and securely</span>
                 </div>
-                <BlankButton text='Download' icon_path='src/assets/download.svg'/>
+                <BlankButton text='Download' icon_path='src/assets/arrow.svg'/>
             </div>
             <img className={classes.picture} src='src/assets/downloadApp_block_picture.png'/>
         </div>
