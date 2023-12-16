@@ -5,7 +5,7 @@ import classes from './AboutUsBlock.module.scss'
 
 const AboutUsBlock = () => {
     return <>
-        <div className={classes.relativeContainer}>
+        <section className={classes.relativeContainer}>
             <img className={classes.fixedPoints} src='src/assets/points_background.svg'></img>
             <div className={classes.container}>
                 <img className={classes.picture} src='src/assets/aboutUs_block_picture.png'/>
@@ -18,7 +18,7 @@ const AboutUsBlock = () => {
                     <BlankButton text='Learn more'/>
                 </div>
             </div>
-        </div>
+        </section>
     </>
 }
 

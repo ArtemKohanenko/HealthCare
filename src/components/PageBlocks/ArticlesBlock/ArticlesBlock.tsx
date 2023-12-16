@@ -13,7 +13,7 @@ const ArticlesBlock = () => {
     ]
 
     return <>
-        <div className={classes.blockContainer}>
+        <section className={classes.blockContainer}>
             <h1 className={classes.title}>Check out our latest article</h1>
             <div className={classes.dividerContainer}>
                 <Divider/>
@@ -28,7 +28,7 @@ const ArticlesBlock = () => {
             </div>
             <img className={classes.points} src='src/assets/points_background.svg'></img>
             <img className={classes.bgVector} src='src/assets/bg_vector1.svg'></img>
-        </div>
+        </section>
     </>
 }
 

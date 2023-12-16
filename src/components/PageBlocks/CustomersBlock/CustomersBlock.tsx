@@ -4,7 +4,7 @@ import classes from './CustomersBlock.module.scss'
 
 const CustomersBlock = () => {
     return <>
-        <div className={classes.customerContainer}>
+        <section className={classes.customerContainer}>
             <div className={classes.customerWrapper}>
                 <h1 className={classes.title}>What our customer are saying</h1>
                 <div className={classes.dividerContainer}>
@@ -38,7 +38,7 @@ const CustomersBlock = () => {
                     <img src='src/assets/active_arrow_right.svg'></img>
                 </button>
             </div>
-        </div>
+        </section>
     </>
 }
 

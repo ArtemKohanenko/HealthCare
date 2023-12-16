@@ -16,7 +16,7 @@ const ServicesBlock = () => {
     ]
 
     return <>
-        <div className={classes.container}>
+        <section className={classes.container}>
             <div className={classes.textContainer}>
                 <h1 className={classes.title}>Our services</h1>
                 <div className={classes.dividerContainer}>
@@ -31,7 +31,7 @@ const ServicesBlock = () => {
                 <BlankButton text='Learn more'/>
             </div>
             
-        </div>
+        </section>
     </>
 }
 

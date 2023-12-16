@@ -4,7 +4,7 @@ import classes from './MainBlock.module.scss'
 
 const MainBlock = () => {
     return <>
-        <div className={classes.relativeContainer}>
+        <section className={classes.relativeContainer}>
             <img className={classes.fixedPoints} src='src/assets/points_background.svg'></img>
             <div className={classes.container}>
                 <div className={classes.info}>
@@ -16,7 +16,7 @@ const MainBlock = () => {
                 </div>
                 <img className={classes.picture} src='src/assets/main_block_picture.png'/>
             </div>
-        </div>
+        </section>
     </>
 }
 

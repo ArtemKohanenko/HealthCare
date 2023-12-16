@@ -5,7 +5,7 @@ import classes from './DownloadBlock.module.scss'
 
 const DownloadBlock = () => {
     return <>
-        <div className={classes.container}>
+        <section className={classes.container}>
             <div className={classes.info}>
                 <div className={classes.textBlock}>
                     <h1 className={classes.title}>Download our mobile apps</h1>
@@ -15,7 +15,7 @@ const DownloadBlock = () => {
                 <BlankButton text='Download' icon_path='src/assets/arrow.svg'/>
             </div>
             <img className={classes.picture} src='src/assets/downloadApp_block_picture.png'/>
-        </div>
+        </section>
     </>
 }
 
