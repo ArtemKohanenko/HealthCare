@@ -9,7 +9,7 @@ const SliderPoints = (props: {num: number, numActive: number}) => {
         <div className={classes.points}>
             {
                 Array.from({length: props.num}, (_, i) => 
-                    <div className={`${classes.point} ${props.numActive==i ? classes.active : ''}`}></div>
+                    <div className={`${classes.point} ${props.numActive==i ? classes.active : ''}`} key={i}></div>
                 )
             }
         </div>

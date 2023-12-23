@@ -39,7 +39,7 @@ const ArticlesBlock = () => {
             </div>
             <div className={classes.cards}>
                 {
-                    articles.slice(0, numArticles).map((item) => <ArticleCard img_name={item.img_name} title={item.title} text={item.text}/>)
+                    articles.slice(0, numArticles).map((item, i) => <ArticleCard img_name={item.img_name} title={item.title} text={item.text} key={i}/>)
                 }
             </div>
             <div className={classes.buttonContainer}>

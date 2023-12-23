@@ -11,7 +11,7 @@ const ArticleCard = (props: {img_name: string, title: string, text: string}) => 
                     <span className={classes.title}>{props.title}</span>
                     <p className={classes.text}>{props.text}</p>
                 </div>
-                <Link text='Read more' icon_path='src/assets/active_arrow_right.svg'/>
+                <Link text='Read more' icon_path='src/assets/arrow_right.svg'/>
             </div>
         </div>
     </>
