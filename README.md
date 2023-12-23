@@ -5,9 +5,21 @@
 ## Скриншоты
 
 <img src="./Screens/1.png" width="800">
+
+----
+
 <img src="./Screens/2.png" width="800">
+
+----
+
 <img src="./Screens/3.png" width="800">
+
+----
+
 <img src="./Screens/4.png" width="800">
+
+----
+
 <img src="./Screens/5.png" width="800">
 
 
