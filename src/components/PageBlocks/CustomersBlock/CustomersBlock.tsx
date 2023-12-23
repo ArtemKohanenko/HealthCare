@@ -28,7 +28,7 @@ const CustomersBlock = () => {
         }
     }, [currentCustomer])
 
-    const sliderRightHandler = () => {
+    const sliderForwardHandler = () => {
         if (isForwardActive) {
             setCurrentCustomer(currentCustomer + 1);
             if (!isBackActive) {
@@ -37,7 +37,7 @@ const CustomersBlock = () => {
         }
     }
 
-    const sliderLeftHandler = () => {
+    const sliderBackHandler = () => {
         if (isBackActive) {
             setCurrentCustomer(currentCustomer - 1);
             if (!isForwardActive) {
@@ -68,11 +68,11 @@ const CustomersBlock = () => {
             </div>
 
             <div className={classes.sliderContainer}>
-                <button className={`${classes.button} ${isBackActive ? classes.active : classes.blocked}`} onClick={() => sliderLeftHandler()}>
+                <button className={`${classes.button} ${isBackActive ? classes.active : classes.blocked}`} onClick={() => sliderBackHandler()}>
                     <img src={isBackActive ? activeIcon : blockedIcon}></img>
                 </button>
                 <SliderPoints num={customersCount} numActive={currentCustomer}/>
-                <button className={`${classes.button} ${classes.forward} ${isForwardActive ? classes.active : classes.blocked}`} onClick={() => sliderRightHandler()}>
+                <button className={`${classes.button} ${classes.forward} ${isForwardActive ? classes.active : classes.blocked}`} onClick={() => sliderForwardHandler()}>
                     <img src={isForwardActive ? activeIcon : blockedIcon}></img>
                 </button>
             </div>
