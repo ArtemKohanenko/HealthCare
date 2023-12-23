@@ -1,0 +1,33 @@
+@import 'src/styles';
+
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+
+    a {
+        font-size: 17px;
+        font-weight: 600;
+        line-height: 28px;
+        color: $color-primary;
+    }
+
+    a:hover {
+        text-decoration: underline;
+        cursor: pointer;
+    }
+    
+    .icon {
+        height: 15px;
+        width: auto;
+    }
+}
+
+.container:hover {
+    cursor: pointer;
+
+    a {
+        text-decoration: underline;
+    }
+}

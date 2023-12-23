@@ -1,0 +1,33 @@
+@import 'src/styles';
+
+$full-width: 100%;
+$points-horizontal-bias: 80px;
+
+.container {
+    position: relative;
+
+    .bgVector {
+        position: absolute;
+        width: 1120px;
+        height: auto;
+        top: -259px;
+        left: -506px;
+        z-index: -1;
+    }
+
+    .bgPoints {
+        position: absolute;
+        height: 115px;
+        width: auto;
+        top: 287px;
+        left: calc($full-width - $points-horizontal-bias);
+        z-index: -1;
+    }
+    
+    .cards {
+        display: grid;
+        grid-template-columns: 350px 350px  350px;
+        column-gap: 37px;
+        row-gap: 37px;
+    }
+}

@@ -1,0 +1,46 @@
+@import 'src/styles';
+
+.wrapper {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    width: 350px;
+    height: 354px;
+    background-color: $color-card-bg;
+    padding: 54px 45px 47px 39px;
+    border-radius: 20px;
+    box-shadow: 10px 40px 50px 0px $color-shadow;
+
+    .imageContainer {
+        display: flex;
+        flex-direction: row;
+        justify-content: start;
+
+        .image {
+            object-fit: contain;
+            height: 90px;
+        }
+    }
+
+    .textBlock {
+        display: flex;
+        flex-direction: column;
+        gap: 1px;
+
+        .title {
+            color: $color-text-title;
+            font-size: 24px;
+            font-weight: 700;
+            line-height: 56px;
+        }
+
+        .text {
+            margin: 0;
+            color: $color-text;
+            font-size: 16px;
+            font-weight: 300;
+            line-height: 28px;
+        }
+    }
+}
