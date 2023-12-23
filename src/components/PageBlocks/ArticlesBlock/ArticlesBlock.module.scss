@@ -24,9 +24,10 @@ $horizontal-vector-bias: 744px;
     }
 
     .cards {
-        display: flex;
-        flex-direction: row;
-        gap: 34px;
+        display: grid;
+        grid-template-columns: 350px 350px  350px;
+        column-gap: 34px;
+        row-gap: 34px;
     }
 
     .buttonContainer {
