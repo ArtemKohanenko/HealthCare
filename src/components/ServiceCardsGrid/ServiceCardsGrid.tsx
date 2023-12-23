@@ -18,8 +18,8 @@ const ServiceCardsGrid = () => {
         <img src='src/assets/bg_vector1.svg' className={classes.bgVector}></img>
         <div className={classes.cards}>
                 {
-                    services.map((item) =>
-                        <ServiceCard img_name={item.img_name} title={item.title} text={item.text}/>)
+                    services.map((item, i) =>
+                        <ServiceCard img_name={item.img_name} title={item.title} text={item.text} key={i}/>)
                 }
         </div>
     </div>

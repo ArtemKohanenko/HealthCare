@@ -1,5 +1,4 @@
 import MainBlock from "../PageBlocks/MainBlock/MainBlock";
-import ServiceCard from "../ServiceCard/ServiceCard";
 import ServicesBlock from "../PageBlocks/ServicesBlock/ServicesBlock";
 import classes from "./Boody.module.scss"
 import AboutUsBlock from "../PageBlocks/AboutUsBlock/AboutUsBlock";

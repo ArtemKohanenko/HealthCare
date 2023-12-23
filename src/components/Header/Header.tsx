@@ -14,7 +14,7 @@ const Header = () => {
                     <span className={classes.logoTitle}>HealthCare</span>
                 </div>
                 <NavBar/>
-            </div>  
+            </div>
         </header>
     </>
 }
