@@ -113,29 +113,39 @@ $points-bg-bias: 82px;
         padding-top: 42px;
 
         .button {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 60px;
+            width: 60px;
+            border-radius: 50%;
             background-color: transparent;
             border: none;
         }
+
+        .forward {
+            transform: rotate(180deg);
+        }
+
+        .blocked {
+            pointer-events: none;
+        }
+
+        .active:hover {
+            background-color: $color-blank-button-hover-bg;
+            cursor: pointer;
+        }
+
         .button img {
             height: 20px;
             width: auto;
-        }
 
-        .points {
-            display: flex;
-            flex-direction: row;
-            gap: 18px;
-
-            .point {
-                width: 10px;
-                height: 10px;
-                border-radius: 50%;
-                background-color: #cee1fc;
-            }
-
-            .active {
-                background-color: #5b9bf3;
-            }
+            -webkit-touch-callout: none;
+            -webkit-user-select: none;
+            -khtml-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
         }
     }
 }
