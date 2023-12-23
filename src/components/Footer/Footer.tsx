@@ -1,42 +1,41 @@
+import FooterLink from '../FooterLink/FooterLink';
 import classes from './Footer.module.scss'
 
 const Footer = () => {
     return <>
         <footer className={classes.footerContainer}>
-            <div className={classes.columns}>
-                <div className={classes.info}>
-                    <div className={classes.companyInfo}>
-                        <div className={classes.logo}>
-                            <div className={classes.logoCircle}>
-                                <span className={classes.logoLetter}>T</span>
-                            </div>
-                            <span className={classes.logoTitle}>HealthCare</span>
+            <div className={classes.info}>
+                <div className={classes.companyInfo}>
+                    <div className={classes.logo}>
+                        <div className={classes.logoCircle}>
+                            <span className={classes.logoLetter}>T</span>
                         </div>
-                        <p className={classes.textBlock}>HealthCare provides progressive, and affordable healthcare, accessible on mobile and online for everyone</p>
+                        <span className={classes.logoTitle}>HealthCare</span>
                     </div>
-                    <span className={classes.rights}>©HealthCare PTY LTD 2023. All rights reserved</span>
+                    <p className={classes.textBlock}>HealthCare provides progressive, and affordable healthcare, accessible on mobile and online for everyone</p>
                 </div>
-                <div className={classes.column}>
-                    <span className={classes.title}>Company</span>
-                    <span className={classes.link}>About</span>
-                    <span className={classes.link}>Testimonials</span>
-                    <span className={classes.link}>Find a doctor</span>
-                    <span className={classes.link}>Apps</span>
-                </div>
-                <div className={classes.column}>
-                    <span className={classes.title}>Region</span>
-                    <span className={classes.link}>Indonesia</span>
-                    <span className={classes.link}>Singapore</span>
-                    <span className={classes.link}>Hongkong</span>
-                    <span className={classes.link}>Canada</span>
-                </div>
-                <div className={classes.column}>
-                    <span className={classes.title}>Help</span>
-                    <span className={classes.link}>Help center</span>
-                    <span className={classes.link}>Contact support</span>
-                    <span className={classes.link}>Instructions</span>
-                    <span className={classes.link}>How it works</span>
-                </div>
+                <span className={classes.rights}>©HealthCare PTY LTD 2023. All rights reserved</span>
+            </div>
+            <div className={classes.column}>
+                <span className={classes.title}>Company</span>
+                <FooterLink text='About'></FooterLink>
+                <FooterLink text='Testimonials'></FooterLink>
+                <FooterLink text='Find a doctor'></FooterLink>
+                <FooterLink text='Apps'></FooterLink>
+            </div>
+            <div className={classes.column}>
+                <span className={classes.title}>Region</span>
+                <FooterLink text='Indonesia'></FooterLink>
+                <FooterLink text='Singapore'></FooterLink>
+                <FooterLink text='Hongkong'></FooterLink>
+                <FooterLink text='Canada'></FooterLink>
+            </div>
+            <div className={classes.column}>
+                <span className={classes.title}>Help</span>
+                <FooterLink text='Help center'></FooterLink>
+                <FooterLink text='Contact support'></FooterLink>
+                <FooterLink text='Instructions'></FooterLink>
+                <FooterLink text='How it works'></FooterLink>
             </div>
             <img className={classes.pointsBg} src='src/assets/points_background2.svg'></img>
         </footer>
