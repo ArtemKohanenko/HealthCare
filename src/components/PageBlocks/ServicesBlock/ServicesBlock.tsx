@@ -1,4 +1,3 @@
-import ServiceCard from '../../ServiceCard/ServiceCard';
 import ServiceCardsGrid from '../../ServiceCardsGrid/ServiceCardsGrid';
 import BlankButton from '../../BlankButton/BlankButton';
 import classes from './ServicesBlock.module.scss'
