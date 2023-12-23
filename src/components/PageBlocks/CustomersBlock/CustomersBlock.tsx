@@ -7,9 +7,9 @@ import SliderPoints from '../../SliderPoints/SliderPoints';
 const CustomersBlock = () => {
     const customers = [
         {name: 'Edward Newgate', subtitle: 'Founder Circle', quote: 'Our dedicated patient engagement app and web portal allow you to access information instantaneously (no tedeous form, long calls, or administrative hassle) and securely'},
-        {name: 'Nill Kigger', subtitle: 'N-Men', quote: 'What the fuck man'},
-        {name: 'Robert Polson', subtitle: 'Fatman', quote: 'bro'},
-        {name: 'Nill Kigger', subtitle: 'N-Men', quote: 'What the fuck man'}
+        {name: 'Some Name', subtitle: 'Who is this?', quote: 'Bla bla bla bla bla bla'},
+        {name: 'Robert Polson', subtitle: 'Fatman', quote: 'Our dedicated patient engagement app and web portal allow you to access information instantaneously (no tedeous form, long calls, or administrative hassle) and securely'},
+        {name: 'Luis Bloom', subtitle: 'Founder Circle', quote: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua'}
     ]
     const customersCount = customers.length;
     const blockedIcon = 'src/assets/blocked_arrow_left.svg';
