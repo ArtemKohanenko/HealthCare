@@ -15,3 +15,7 @@
     line-height: 60px;
     color: $color-text-light;
 }
+
+.button:hover {
+    background-color: $color-button-hover-bg;
+}
