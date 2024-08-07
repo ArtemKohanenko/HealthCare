@@ -1,0 +1,61 @@
+@import 'src/styles';
+
+$left-margin: 135px;
+$right-margin: 223px;
+
+$full-width: 100%;
+$points-bias: 86px;
+
+.relativeContainer {
+    position: relative;
+    overflow-x: clip;
+    overflow-y: visible;
+
+    .fixedPoints {
+        position: absolute;
+        height: 115px;
+        width: auto;
+        top: 465px;
+        left: calc($full-width - $points-bias);
+    }
+    .container {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 9%;
+        padding-right: calc($right-margin - $left-margin);
+        
+        .info {
+            display: flex;
+            flex-direction: column;
+            gap: 48px;
+            align-items: start;
+            margin-top: 57px;
+    
+            .textBlock {
+                display: flex;
+                flex-direction: column;
+                gap: 30px;
+                width: 450px;
+    
+                .title {
+                    font-weight: 700;
+                    font-size: 36px;
+                    line-height: 56px;
+                    margin: 0;
+                }
+    
+                .text {
+                    color: $color-text;
+                    font-size: 18px;
+                    line-height: 30px;
+                }
+            }
+        }
+    
+        .picture {
+            width: 650px;
+            height: auto;
+        }
+    }
+}

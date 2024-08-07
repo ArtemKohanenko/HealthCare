@@ -1,0 +1,37 @@
+$full-width: 100%;
+$full-height: 100%;
+$points-width: 131px;
+$horizontal-points-bias: 91px;
+$vertical-points-bias: 72px;
+
+.block2 {
+    margin-top: 192px;
+}
+
+.block3 {
+    margin-top: 220px;
+}
+
+.block4 {
+    margin-top: 229px;
+}
+
+.block5 {
+    margin-top: 266px;
+}
+
+.block6 {
+    position: relative;
+    overflow-y: clip;
+    margin-top: 222px;
+    padding-bottom: 202px;
+
+    .points_bg {
+        position: absolute;
+        height: 115px;
+        width: auto;
+        top: calc($full-height - $vertical-points-bias);
+        left: calc($full-width - $horizontal-points-bias - $points-width);
+        z-index: -1;
+    }
+}
